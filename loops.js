@@ -1,30 +1,34 @@
 
-let today = "saturday"
 
-if (today == "saturday") {
-    console.log ("Come to the coding school")
 
-}else if (today == "sunday") {
-    console.log ("sleep")
-}else if (today == "monday") {
-    console.log ("go to school")
-}else {
-    console.log ("do whatever you want")
+// use for loops to print my name
+
+let i = 0;
+
+
+while (i<10) {
+    console.log("younis")
+    i++
 }
 
-switch (today) {
-    case"saturday":
-    console.log("Coding time...")
-    break;
-    case"sunday":
-    console.log("Sleeping time...")
-    break;
-    case"monday":
-    console.log("School time...")
-    break;
+
+for (let i = 0; i < 5; i++) {
     
-    default:
-        console.log("free time")
-        break;
+    console.log("younis")
 }
+
+
+
+
+
+
+
+
+
+// to print the name Noor 10 times
+do {
+    console.log("Noor")
+    i++
+} while (i < 10);
+
 
